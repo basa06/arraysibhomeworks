@@ -6,18 +6,12 @@ public class Main {
         int m = 1;
         int i = 0;
         for (int x : original_arr) {
-
             if (x < m) {
                 smaller[i] = x;
-
-
             } else if (x > m) {
                 larger[i] = x;
-
-
             }
             i++;
-
         }
         System.out.println("smaller: ");
         for (int x : smaller) {
@@ -30,7 +24,6 @@ public class Main {
             if (x != 0) {
                 System.out.println(x);
             }
-
         }
     }
 }
