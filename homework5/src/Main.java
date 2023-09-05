@@ -7,7 +7,7 @@ public class Main {
             while (x<=i){
                 for(int y: original_arr){
                     culm_sum[i]+=y;
-                    System.out.println(culm_sum[i]);
+                    System.out.print(culm_sum[i]+ " ");
                     x++;
                 }
             }
